@@ -293,13 +293,17 @@ body {
     border-left: 2px solid #3D83B3;
     position: relative;
   }
+
+  .resume h3 {
+    font-family: 'PT Sans', 'Sans-Serif';
+  }
   
   .resume .resume-item h4 {
     line-height: 18px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
-    font-family: 'PT Sans', 'Sans-Serif';
+    font-family: 'Nunito', 'Sans-Serif';
     color: #0e3652;
     margin-bottom: 10px;
   }
