@@ -1,0 +1,209 @@
+/* Responsive media query */
+@media (max-width: 992px){
+
+    /* Home section start */
+    .home-content {        
+        position: absolute;
+        top: 370px;
+        font-weight: normal;
+    }
+
+    .home-content .h5 {
+        font-size: 10px;
+    }
+
+    .home-content .display-3 {
+        font-size: 50px;
+    }
+
+    .home-content .h5 {
+        font-size: 20px;
+    }
+
+    .home-content a{           
+        font-size: 12px;
+        width: 110px;       
+    }
+
+    .home-content a:active {
+        font-size: 14px;       
+    }
+    /* Home section end */
+    
+    /* About section start */
+    .about-section .about-title {
+        font-size: 25px;
+        position: relative;
+        right: -10%;
+    }
+
+    .about-section img { 
+        display: flex;
+        justify-content: center;        
+        margin: 0 auto;        
+        width: 350px;
+        height: 300px;
+    }
+
+    .about-section .about-content .about-title-main {
+        margin-left: 20%;
+        margin-top: 10%;
+        text-align: justify;        
+    }    
+
+    .about-content a{           
+        font-size: 12px;
+        width: 110px;       
+    }
+
+    .about-content a:active {
+        font-size: 14px;       
+    }
+    /* About section end */  
+    
+    /* Services section start */
+    .services-content {
+        margin-left: 50%;
+    }
+
+    .services-content .data-card .card {
+        margin-left: 5%;
+    }
+    .services-content .card { 
+        width: 100%;       
+        margin-bottom: 10%;
+    }
+    /* Services section end */
+
+    /* Skills section start */
+    .skills-content a{           
+        font-size: 12px;
+        width: 110px;       
+    }
+
+    .skills-content a:active {
+        font-size: 14px;       
+    }
+    /* Skills section end */
+
+    /* Contact section start */
+    #contact .map iframe{
+    width: 100%;
+    height: 300px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    /* Home section start */
+    .home-content {        
+        position: absolute;
+        top: 400px;
+        font-weight: normal;
+    }    
+    /* Home section end */
+
+    /* About section start */
+    .about-section .about-content .about-title-main {
+        margin-left: 20%;
+        margin-top: 10%;
+        text-align: justify;        
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* About section start */
+    .about-section .about-title {
+        font-size: 25px;
+        position: relative;
+        right: -2%;
+    }
+    .about-section img { 
+        display: flex;
+        justify-content: center;        
+        margin: 0 auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    .about-section .about-content .about-title-main {        
+        margin-top: 20px;
+        padding-left: 20%;
+        text-align: justify;
+        letter-spacing: 0px;                  
+    }
+    /* About section end */
+
+    /* Services section start */    
+    .services-content .card,
+    .services-content .data-card .card {
+        margin: 0 0 3% 20%;
+    }
+    /* Services section end */
+    
+    /* Contact section start */
+    #contact .map iframe{
+      width: 100%;
+      height: 300px;
+    }
+
+    #contact .contact-details {
+        margin-left: 0%;
+    }
+    /* contact section end */
+}
+
+@media (max-width: 575px) {
+    /* About section start */   
+    .about-section .about-title {        
+        position: relative;
+        right: 0%;    
+    }
+    /* About section end */
+
+    /* Services section start */     
+    .services-content .card,
+    .services-content .data-card .card {
+        margin: 0 0 3% 17%;
+    }
+    /* Services section end */
+
+    /* Contact section start */
+    #contact .map iframe{
+      width: 100%;
+      height: 300px;
+    }
+    /* Contact section end */    
+}
+
+@media (max-width: 1199px) {
+    /* About section start */
+    .about-section .about-content .about-title-main {
+        margin-left: 15%;
+        margin-top: 10%;
+        text-align: justify;        
+    }
+    /* About section end */
+    
+    /* Service section start */
+    .services-content {
+        margin-left: 5%;
+    }
+    /* Services section end */
+
+    /* Contact section start */ 
+    #contact .map iframe{
+       width: 100%;
+       height: 300px;
+    }
+    /* Contact section end */
+}
+
+@media (min-width:360px) and (max-width: 535px) {
+    /* Services section start */    
+    .services-content {
+        margin: 0 30 3% 0%;
+    }
+}
+
