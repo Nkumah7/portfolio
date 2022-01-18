@@ -549,7 +549,24 @@ body {
     width: 50%;
 }
 
+.skills-content .skills-percent .python::before{
+    width: 80%;
+}
+
+
 .skills-content .skills-percent .mysql::before{
+    width: 50%;
+}
+
+.skills-content .skills-percent .django::before{
+    width: 80%;
+}
+
+.skills-content .skills-percent .react::before{
+    width: 70%;
+}
+
+.skills-content .skills-percent .laravel::before{
     width: 50%;
 }
 
