@@ -537,6 +537,14 @@ body {
     width: 60%;
 }
 
+.skills-content .skills-percent .python::before{
+    width: 70%;
+}
+
+.skills-content .skills-percent .django::before{
+    width: 60%;
+}
+
 .skills-content .skills-percent .php::before{
     width: 50%;
 }
